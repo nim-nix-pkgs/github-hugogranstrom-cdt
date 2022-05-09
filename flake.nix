@@ -7,14 +7,6 @@
   inputs.flakeNimbleLib.type  = "github";
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
-  inputs."cdt-master".dir   = "master";
-  inputs."cdt-master".owner = "nim-nix-pkgs";
-  inputs."cdt-master".ref   = "master";
-  inputs."cdt-master".repo  = "cdt";
-  inputs."cdt-master".type  = "github";
-  inputs."cdt-master".inputs.nixpkgs.follows = "nixpkgs";
-  inputs."cdt-master".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
-  
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@inputs:
   let 
     lib  = flakeNimbleLib.lib;
