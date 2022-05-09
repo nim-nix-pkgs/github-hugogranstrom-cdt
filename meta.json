@@ -6,7 +6,7 @@
   "tags": [],
   "url": "https://github.com/hugogranstrom/cdt",
   "refs": [
-    "fatal: unable to access 'https://github.com/hugogranstrom/cdt/': Could not resolve host: github.com",
+    "fatal: unable to access 'https://github.com/hugogranstrom/cdt/': SSL connection timeout",
     ""
   ],
   "heads": []
